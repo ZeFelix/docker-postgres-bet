@@ -1,3 +1,4 @@
 .env
 !env.example
-!volumes/data/postgres/.gitkeep
+src/volumes/data/postgres/*
+!src/volumes/data/postgres/.gitkeep
