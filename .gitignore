@@ -1,4 +1,11 @@
+#files and folders ignored
 .env
+src/volumes/data/postgres/config/*
+src/volumes/data/postgres/data/*
+src/volumes/data/postgres/log/*
+src/volumes/data/backup_db/*
+
+#files and folders not ignored
 !env.example
-src/volumes/data/postgres/*
 !src/volumes/data/postgres/.gitkeep
+!src/volumes/data/backup_db/.gitkeep
